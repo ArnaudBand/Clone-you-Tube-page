@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 10px;
+}
+
+.header {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.icon-1 {
+    margin-left: 10px;
+    position: relative;
+}
+
+.fa-brands {
+    color: red;
+    font-size: 20px;
+}
+
+.header-link-1 {
+    color: black;
+    text-decoration: none;
+}
+
+#country-code {
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+#text-input {
+    padding: 4px 0 1px 200px;
+    border-radius: 2px;
+   background-color: rgb(243, 240, 240);
+}
+
+.input-header {
+    height: 35px;
+}
+
+.submit {
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    height: 35px;
+    width: 64px;
+    margin: 0;
+    
+}
+
+
+.fa-microphone {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgb(216, 216, 216);
+}
+
+.rigth-side {
+    padding-right: 20px;
+}
+
+.last {
+    padding: 0 10px;
+}
+
+.body-container{
+    padding: 20px 100px;
+}
+
+.body_1 {
+    padding-right: 20px;
+    position: relative;
+}
+
+
+
+.channel-link_1 {
+    text-decoration: none;
+    color: black;
+}
+
+.section-class_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0 15px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-class_2  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.btn-danger {
+    background-color: red;
+    padding: 8px;
+    border: none;
+}
+
+.company-name {
+    padding-left: 10px;
+}
+
+.text-company {
+    padding: 20px;
+}
+
+.company-text {
+    padding: 10px;
+    margin: 0 35px;
+}
+
+.link-more {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    outline: none;
+    font-weight: 600;
+    padding: 30px 0;
+    margin: 0 35px;
+}
+
+.comment-part {
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+
+.commment-text{
+    position: relative;
+}
+
+.text-by {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.comment-link {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.comment-icon {
+    background-color: rgb(175, 175, 180);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#comment-input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 200px 0 0;
+}
+
+.submit-comment {
+    padding: 10px;
+    position: relative;
+    top: 0;
+    left: 550px;
+}
+
+.cancel-comment {
+    font-weight: 600;
+    color: gray;
+    padding: 10px;
+    border: none;
+}
+
+.send-comment {
+    font-weight: 600;
+    color: gray;
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.btn-1 {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+
+.body_link  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+.body_link p{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(87, 85, 85);
+    padding: 10px;
+    overflow: hidden;
+}
+
+.fa-circle {
+    color: red;
+}
+
+.body_link small {
+    font-size: 10px;
+}
+
+.fa-ellipsis-vertical {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    color: black;
+}
+
+.div-media {
+    margin: 0 40px;
+}
+
+.title-media {
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    color: gray;
+}
+
+.paragraph-media {
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.media-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media-1 {
+    background: rgb(231, 231, 231);
+    border-radius: 10px;
+}
+
+.img-media {
+    border-radius: 10px;
+}
+
+.p-media {
+    text-align: center;
+
+}
